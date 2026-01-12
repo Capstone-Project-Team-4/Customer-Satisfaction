@@ -173,5 +173,4 @@ dynamodb.update_item(
         ':ec': {'N': str(error_count)}
     }
 )
-
 job.commit()
